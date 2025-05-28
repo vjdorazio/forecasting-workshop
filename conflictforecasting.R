@@ -52,6 +52,9 @@ builddv <- function(s, df) {
 # read in data
 source("loadviews.R")
 
+# Add attributes to the data
+source("add_attributes.R")
+
 # here's your codebook: https://www.dropbox.com/scl/fo/rurpcmtpcquni5onoyuus/AI6p3CLXEGrRVak2wEsTgAM/codebooks?e=1&preview=cm_features_competition.pdf&rlkey=v1o4va647qrwc4la7m8i7cedk&st=3lzkrbnw&subfolder_nav_tracking=1&dl=0
 
 # Merge on the country label data
